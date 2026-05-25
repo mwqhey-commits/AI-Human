@@ -145,6 +145,15 @@ nav {
     outline: none;
 }
 
+.nav-container a.active {
+    color: var(--accent-hover);
+    border-bottom-color: var(--accent);
+    background-color: var(--accent-muted);
+    padding: 14px 12px;
+    margin: 0 -8px;
+    border-radius: 6px 6px 0 0;
+}
+
 /* Layout */
 .container {
     max-width: var(--max-width);
@@ -653,6 +662,11 @@ footer {
     .nav-container a {
         font-size: 0.85rem;
         padding: 12px 2px;
+    }
+
+    .nav-container a.active {
+        padding: 12px 10px;
+        margin: 0 -6px;
     }
 
     .header-hero {
