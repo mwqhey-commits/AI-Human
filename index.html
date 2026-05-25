@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Human Collaborative Drug Development for Leptospirosis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/humanLed.png" alt="Human-AI collaborative laboratory: robot and scientist conducting drug research" class="header-hero">
+        <div class="header-content">
+            <div class="badge">Human-Led, AI-Assisted Paradigm</div>
+            <h1>AI-Human Collaborative Drug Development for Leptospirosis</h1>
+            <p class="subtitle">A collaborative white paper on AI-assisted drug discovery for leptospirosis, driven by human scientists and intelligent systems</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#intro">Background</a>
+            <a href="#workflow">Workflow</a>
+            <a href="#results">Results</a>
+            <a href="#discussion">Future Work</a>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <section id="intro">
+            <h2 class="section-title"><span>01</span> Introduction &amp; Background</h2>
+            <p class="lead"><strong>Leptospirosis</strong> is one of the most widespread and severe zoonotic infectious diseases globally, classified as a neglected threat with major public-health impact. Transmission occurs primarily through contact with contaminated water or soil. High-risk groups include farmers, livestock workers, sewer workers, and flood-response personnel.</p>
+
+            <div class="figure-grid">
+                <figure class="figure">
+                    <img src="images/a.png" alt="Leptospira bacteria under scanning electron microscopy">
+                    <figcaption>Leptospira — scanning electron micrograph (SEM)</figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="images/b.png" alt="Farmer working in a field, a high-risk exposure group">
+                    <figcaption>Agricultural workers — typical high-risk exposure group</figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="images/11.png" alt="Farmer planting in a flooded rice paddy">
+                    <figcaption>Paddy-field work — exposure via contaminated water</figcaption>
+                </figure>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-num">~1,000,000</div>
+                    <div class="stat-label">Annual infections worldwide</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num">~60,000</div>
+                    <div class="stat-label">Annual deaths worldwide</div>
+                </div>
+                <div class="stat-card warning">
+                    <div class="stat-num">At-risk groups</div>
+                    <div class="stat-label">Farmers · Sewer workers · Exposed populations</div>
+                </div>
+            </div>
+
+            <h3>Three core limitations of current clinical treatment</h3>
+            <div class="boundary-grid">
+                <div class="boundary-card boundary-card--danger">
+                    <strong class="boundary-card__label boundary-card__label--danger">1. Extremely narrow treatment window</strong>
+                    Existing drugs are typically effective only within the first five days after infection. Missing this window leads to rapid disease progression.
+                </div>
+                <div class="boundary-card boundary-card--warning">
+                    <strong class="boundary-card__label boundary-card__label--warning">2. Rising antibiotic resistance</strong>
+                    In major endemic regions, pathogens show significant resistance, causing conventional regimens to fail repeatedly.
+                </div>
+            </div>
+            <div class="boundary-card boundary-card--purple">
+                <strong class="boundary-card__label boundary-card__label--purple">3. No effective therapy for late-stage complications</strong>
+                When disease progresses to systemic inflammatory response syndrome (SIRS), antibiotics cannot control the immune storm and mortality remains very high. A scalable, efficient drug-discovery paradigm is urgently needed.
+            </div>
+        </section>
+
+        <section id="workflow">
+            <h2 class="section-title"><span>02</span> Core Workflow Architecture</h2>
+            <p>This project defines a clear <strong>human–AI collaboration boundary</strong>: AI handles large-scale data retrieval, pattern recognition, and high-throughput computation; human scientists own strategic decisions, critical evaluation, and final approval.</p>
+
+            <div class="boundary-grid">
+                <div class="boundary-card human">
+                    <h4>Human expert</h4>
+                    <ul>
+                        <li>Strategic decisions</li>
+                        <li>Critical evaluation of AI outputs</li>
+                        <li>Final judgement and sign-off</li>
+                    </ul>
+                </div>
+                <div class="boundary-card ai">
+                    <h4>AI assistant</h4>
+                    <ul>
+                        <li>Processing massive biomedical datasets</li>
+                        <li>High-throughput, repetitive computational tasks</li>
+                        <li>Literature mining and intelligence analysis</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>Four-stage AI-assisted R&amp;D pipeline</h3>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-badge">
+                        <img src="images/G1.png" alt="Stage 1: Target discovery">
+                    </div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-heading">Target discovery</h4>
+                        <p><span class="timeline-label">Goal</span> Identify targets essential for bacterial survival with significant structural divergence from human homologs to ensure safety.</p>
+                        <p><span class="timeline-label">AI role</span> Literature intelligence, druggability scoring, and target prioritization.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-badge">
+                        <img src="images/G2.png" alt="Stage 2: Lead discovery">
+                    </div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-heading">Lead discovery</h4>
+                        <p><span class="timeline-label">Goal</span> Screen large compound libraries for lead molecules that bind the target with initial activity.</p>
+                        <p><span class="timeline-label">AI role</span> Ultra-large-scale virtual screening and binding-affinity prediction.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-badge">
+                        <img src="images/G3.png" alt="Stage 3: Molecular optimization">
+                    </div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-heading">Molecular optimization</h4>
+                        <p><span class="timeline-label">Goal</span> Refine lead scaffolds to improve biological activity and ADMET profiles.</p>
+                        <p><span class="timeline-label">AI role</span> Automated scaffold-modification proposals and ADMET pharmacokinetic/toxicity prediction.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-badge">
+                        <img src="images/G4.png" alt="Stage 4: Preclinical assessment">
+                    </div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-heading">Preclinical assessment</h4>
+                        <p><span class="timeline-label">Goal</span> Evaluate developability and toxicity risk to reduce clinical trial failure rates.</p>
+                        <p><span class="timeline-label">AI role</span> Multi-dimensional developability scoring and automated preclinical reporting.</p>
+                    </div>
+                </article>
+            </div>
+
+            <p><strong>Core digital toolchain:</strong> The pipeline integrates <strong>JVS Claw</strong> (multi-agent assistant), <strong>AlphaFold</strong> (3D protein structure prediction), <strong>CavityPlus</strong> (binding-pocket detection), and <strong>SwissDock &amp; SwissADME</strong> (docking and ADMET prediction).</p>
+        </section>
+
+        <section id="results">
+            <h2 class="section-title"><span>03</span> Results &amp; Molecular Optimization</h2>
+
+            <h3>1. Target and initial hit identification</h3>
+            <p>Using <strong>JVS Claw</strong>, we mined literature from 2020–2026 and evaluated five candidate proteins, ultimately selecting <strong>DNA Gyrase B (UniProt Q8GQD2)</strong> as the core target. It shows high essentiality and strong bacterial selectivity with low human-cell toxicity. AlphaFold structural confidence reached <strong>86.62%</strong>.</p>
+
+            <figure class="figure">
+                <img src="images/4.png" alt="AlphaFold-predicted DNA Gyrase B structure with confidence coloring">
+                <figcaption>AlphaFold prediction of DNA Gyrase B (pLDDT confidence coloring)</figcaption>
+            </figure>
+
+            <figure class="figure">
+                <img src="images/c.png" alt="Overview of DNA Gyrase B three-dimensional structure">
+                <figcaption>Target protein — 3D structural overview</figcaption>
+            </figure>
+
+            <p><strong>CavityPlus</strong> identified a druggable pocket scoring <strong>5719</strong> (scores &gt;5000 indicate high-potential binding sites). Docking yielded a plant-derived hit, <strong>myricetin</strong>, with an initial binding energy of <code>-6.828 kcal/mol</code> — moderate affinity with clear optimization headroom.</p>
+
+            <figure class="figure">
+                <img src="images/1.png" alt="CavityPlus druggability pocket analysis, DrugScore 5719">
+                <figcaption>CavityPlus druggability analysis (DrugScore: 5719, Druggable)</figcaption>
+            </figure>
+
+            <figure class="figure">
+                <img src="images/3.png" alt="SwissDock molecular docking search space definition">
+                <figcaption>SwissDock — docking search-space definition</figcaption>
+            </figure>
+
+            <figure class="figure">
+                <img src="images/5.png" alt="Myricetin docking to DNA Gyrase B, binding energy -6.828 kcal/mol">
+                <figcaption>Myricetin–DNA Gyrase B docking (initial binding energy −6.828 kcal/mol)</figcaption>
+            </figure>
+
+            <div class="figure-pair">
+                <figure class="figure">
+                    <img src="images/2.png" alt="Chemical structure of myricetin">
+                    <figcaption>Hit compound: myricetin</figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="images/6.png" alt="SwissADME radar chart for myricetin">
+                    <figcaption>SwissADME — baseline myricetin developability</figcaption>
+                </figure>
+            </div>
+
+            <h3>2. Structure optimization prompt (prompt engineering)</h3>
+            <p>Human scientists supplied precise medicinal-chemistry modification instructions to guide AI-driven refinement:</p>
+
+            <div class="terminal">
+                <div class="terminal-header">JVS Claw Console — Medicinal Chemistry Prompt</div>
+                "As a medicinal chemistry expert, propose 5 structural modification strategies for myricetin (SMILES: O=C1C=C(O)C2=C(O)C=C(O)C=C2O1) to:<br>
+                • Improve water solubility and oral bioavailability<br>
+                • Enhance binding affinity to DNA gyrase (retain key hydrogen bonds)<br>
+                • Reduce cytotoxicity risk<br>
+                For each strategy, explain the reason to modify and how it works."
+            </div>
+
+            <h3>3. Comparative evaluation and the MYR-Triple lead</h3>
+            <p>Among five modification strategies, <strong>Option 5 (MYR-Triple)</strong> — combining <code>3'-NH₂</code>, <code>7-OCH₃</code>, and <code>3-F</code> — offered the strongest synergy despite higher synthetic complexity. Optimized SMILES: <code>C0c1cc(O)c(O)c(N)c1-c2oc3cc(O)c(O)c(F)c3c2=0</code>.</p>
+
+            <figure class="figure">
+                <img src="images/7.png" alt="SwissADME radar chart for MYR-Triple optimized molecule">
+                <figcaption>SwissADME — MYR-Triple developability assessment</figcaption>
+            </figure>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Myricetin (baseline)</th>
+                            <th>MYR-Triple</th>
+                            <th>Improvement</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Binding energy</strong></td>
+                            <td>−7.8 kcal/mol</td>
+                            <td>−10.2 kcal/mol</td>
+                            <td class="highlight-pos">+31% stronger affinity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Interaction sites</strong></td>
+                            <td>5 key contacts</td>
+                            <td>8 key contacts</td>
+                            <td class="highlight-pos">+60% more residue engagement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Metabolic half-life (t<sub>1/2</sub>)</strong></td>
+                            <td>45 min</td>
+                            <td>180 min</td>
+                            <td class="highlight-pos">+300% improved stability</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Oral bioavailability</strong></td>
+                            <td>50%</td>
+                            <td>72%</td>
+                            <td class="highlight-pos">+44% absorption &amp; solubility</td>
+                        </tr>
+                        <tr class="row-highlight">
+                            <td><strong>Predicted IC<sub>50</sub></strong></td>
+                            <td>1.85 µM</td>
+                            <td><strong>0.03 µM</strong></td>
+                            <td class="highlight-pos ic50-cell">~60× increase in predicted potency</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Cross-strategy comparison</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Strategy</th>
+                            <th>Affinity change</th>
+                            <th>Solubility</th>
+                            <th>Bioavailability</th>
+                            <th>Synthetic complexity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Strategy 1: 3'-NH₂ introduction</td>
+                            <td>+18%</td>
+                            <td>+400%</td>
+                            <td>+10%</td>
+                            <td>Low (3 steps)</td>
+                        </tr>
+                        <tr>
+                            <td>Strategy 2: 7-OCH₃ modification</td>
+                            <td>+4%</td>
+                            <td>+50%</td>
+                            <td>+30%</td>
+                            <td>Low (2 steps)</td>
+                        </tr>
+                        <tr>
+                            <td>Strategy 3: 3-glucoside glycosylation</td>
+                            <td>−5%</td>
+                            <td>+15,000%</td>
+                            <td>+40%</td>
+                            <td>High (4 steps)</td>
+                        </tr>
+                        <tr>
+                            <td>Strategy 4: 4'-propylamine modification</td>
+                            <td>+22%</td>
+                            <td>+700%</td>
+                            <td>+25%</td>
+                            <td>Very high</td>
+                        </tr>
+                        <tr class="row-selected">
+                            <td>Strategy 5: MYR-Triple (selected)</td>
+                            <td>+31%</td>
+                            <td>+600%</td>
+                            <td>+44%</td>
+                            <td>Very high (multi-step synergy)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="discussion">
+            <h2 class="section-title"><span>04</span> Discussion &amp; Future Work</h2>
+            <h3>Limitations and planned experiments</h3>
+            <div class="boundary-grid">
+                <div class="boundary-card">
+                    <strong class="boundary-card__heading">Current limitations</strong>
+                    <ul>
+                        <li><strong>Computational by nature:</strong> All results are model-based and require wet-lab validation.</li>
+                        <li><strong>Model bias:</strong> ADMET models may deviate when applied to novel scaffolds.</li>
+                        <li><strong>Single-target risk:</strong> Monotherapy may drive resistance; combination or multi-target approaches warrant exploration.</li>
+                    </ul>
+                </div>
+                <div class="boundary-card">
+                    <strong class="boundary-card__heading">Planned experiments</strong>
+                    <ol>
+                        <li><strong>Custom synthesis</strong> of the MYR-Triple lead in the laboratory.</li>
+                        <li><strong>In vitro activity</strong> — enzyme inhibition and zone-of-inhibition assays against <em>Leptospira</em>.</li>
+                        <li><strong>Cytotoxicity screening</strong> on normal human cell lines to define safety margins.</li>
+                        <li><strong>Animal PK/efficacy</strong> — in vivo pharmacokinetics and therapeutic validation.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="figure-grid">
+                <figure class="figure">
+                    <img src="images/9.png" alt="Scientist conducting wet-lab validation">
+                    <figcaption>Planned wet-lab validation</figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="images/10.png" alt="Laboratory mouse model">
+                    <figcaption>Animal-model PK validation</figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="images/12.png" alt="Handle with Care — animal welfare and reduction principles">
+                    <figcaption>Animal welfare: early AI screening to reduce unnecessary animal use</figcaption>
+                </figure>
+            </div>
+
+            <h3>Ethics, social responsibility, and reflection</h3>
+            <p><strong>Animal welfare &amp; reduction:</strong> High-precision early toxicity prediction filters out weak candidates before preclinical animal studies.</p>
+            <p><strong>Access for underserved populations:</strong> Lower upfront R&amp;D costs may enable affordable, scalable treatments for millions affected by neglected infectious diseases.</p>
+
+            <div class="boundary-card boundary-card--insight">
+                <strong>Key takeaways</strong>
+                <ol class="insight-list">
+                    <li><strong>Critical thinking is essential.</strong> Human experts must vet AI outputs for clinical safety and synthetic feasibility.</li>
+                    <li><strong>Prompt quality matters.</strong> Clear constraints (e.g., literature date ranges, fixed functional groups) improve collaboration efficiency.</li>
+                    <li><strong>Close the data loop.</strong> Feed wet-lab results back into AI systems via predict → validate → feedback → optimize cycles.</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h4>References</h4>
+                <ul class="ref-list">
+                    <li>1. Karpagam KB, Ganesh B. Leptospirosis: a neglected tropical zoonotic infection. <em>Eur J Clin Microbiol Infect Dis.</em> 2020.</li>
+                    <li>2. Rajapakse S, et al. Leptospirosis. <em>Nat Rev Dis Primers.</em> 2025.</li>
+                    <li>3. Christie SA, et al. Repurposing FDA-Approved Drugs for Leptospirosis. <em>ACS Omega.</em> 2024.</li>
+                    <li>4. Tse-Dinh YC. Bacterial topoisomerases as antibiotic targets. <em>Future Med Chem.</em> 2019.</li>
+                    <li>5. Jumper J, et al. Highly accurate protein structure prediction with AlphaFold. <em>Nature.</em> 2021.</li>
+                    <li>6. Daina A, et al. SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness. <em>Sci Rep.</em> 2017.</li>
+                </ul>
+            </div>
+            <div class="footer-aside">
+                <p class="footer-tagline">Human-led · AI-assisted drug discovery</p>
+                <p>© 2026 AI-Human Drug Discovery Project</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
